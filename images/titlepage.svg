@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 540">
+	<title>The titlepage for the Standard Ebooks edition of History of the Decline and Fall of the Roman Empire, by Edward Gibbon</title>
+	<style type="text/css">
+		text{
+			font-family: League Spartan;
+			letter-spacing: 5px;
+			text-anchor: middle;
+		}
+
+		.title{
+			font-size: 93.56725311px;
+		}
+
+		.author{
+			font-size: 70.17543793px;
+		}
+	</style>
+	<text class="title" x="700" y="130">HISTORY OF THE</text>
+	<text class="title" x="700" y="230">DECLINE AND FALL OF</text>
+	<text class="title" x="700" y="330">THE ROMAN EMPIRE</text>
+	<text class="author" x="700" y="490">EDWARD GIBBON</text>
+</svg>
