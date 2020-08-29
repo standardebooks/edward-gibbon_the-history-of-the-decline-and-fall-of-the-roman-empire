@@ -50,11 +50,16 @@
 		<dc:source>https://archive.org/details/historydeclinea03milmgoog</dc:source>
 		<dc:source>https://archive.org/details/declineandfallr02unkngoog</dc:source>
 		<dc:source/>
-		<!-- Milman-only post-1845 edition, 5-volumes -->
+		<!-- Milman post-1845 edition, 5-volumes; appears to match PG's transcription -->
+		<!-- preface thru chapter 16 -->
 		<dc:source>https://archive.org/details/historyofdecline55gibb</dc:source>
+		<!-- chapter 17 thru chapter 30 -->
 		<dc:source>https://archive.org/details/historyofdecline54gibb</dc:source>
+		<!-- chapter 31 thru chapter 43 -->
 		<dc:source>https://archive.org/details/historyofdecline53gibb</dc:source>
+		<!-- chapter 44 thru chapter 57 -->
 		<dc:source>https://archive.org/details/historyofdecline52gibb</dc:source>
+		<!-- chapter 58 thru chapter 71 -->
 		<dc:source>https://archive.org/details/historyofdecline51gibb</dc:source>
 		<!-- 1854/5 John Murray version -->
 		<dc:source>https://archive.org/details/historydeclinea21gibbgoog</dc:source>
