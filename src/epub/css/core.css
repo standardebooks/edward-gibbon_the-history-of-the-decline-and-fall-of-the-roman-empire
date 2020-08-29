@@ -21,7 +21,7 @@ hr{
 
 q::before,
 q::after{
-	content: '';
+	content: "";
 }
 
 h1,
@@ -80,7 +80,10 @@ strong{
 }
 
 header{
-	page-break-inside: avoid;
+	break-after: avoid;
+	break-inside: avoid;
+	hyphens: none;
+	-epub-hyphens: none;
 	text-align: center;
 }
 
@@ -97,6 +100,7 @@ section[epub|type~="titlepage"] img{
 
 a[epub|type~="noteref"]{
 	font-size: .75em;
+	font-style: normal !important;
 	vertical-align: super;
 }
 
