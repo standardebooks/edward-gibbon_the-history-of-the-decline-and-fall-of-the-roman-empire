@@ -43,14 +43,14 @@
 		<meta id="long-description" property="se:long-description" refines="#description">LONG_DESCRIPTION</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/25717</dc:source>
-		<!-- Milman-only post-1845 edition(s), 6-volumes -->
+		<!-- Milman 1845 A.L Burt (NY) edition, 6-volumes -->
 		<dc:source>https://archive.org/details/historyofdecline1845gibb</dc:source>
 		<dc:source/>
 		<dc:source>https://archive.org/details/historyofdecline53gibb</dc:source>
 		<dc:source>https://archive.org/details/historydeclinea03milmgoog</dc:source>
 		<dc:source>https://archive.org/details/declineandfallr02unkngoog</dc:source>
 		<dc:source/>
-		<!-- Milman post-1845 edition, 5-volumes; appears to match PG's transcription -->
+		<!-- Milman 1845(?) Porter & Coates (Phil.) edition, 5 volumes; appears to match PG's transcription -->
 		<!-- preface thru chapter 16 -->
 		<dc:source>https://archive.org/details/historyofdecline55gibb</dc:source>
 		<!-- chapter 17 thru chapter 30 -->
@@ -61,7 +61,7 @@
 		<dc:source>https://archive.org/details/historyofdecline52gibb</dc:source>
 		<!-- chapter 58 thru chapter 71 -->
 		<dc:source>https://archive.org/details/historyofdecline51gibb</dc:source>
-		<!-- 1854/5 John Murray version -->
+		<!-- William Smith 1854/5 John Murray (London) edition, 8 volumes -->
 		<dc:source>https://archive.org/details/historydeclinea21gibbgoog</dc:source>
 		<dc:source>https://archive.org/details/historydeclinea23gibbgoog</dc:source>
 		<dc:source>https://archive.org/details/historydeclinea22gibbgoog</dc:source>
@@ -70,7 +70,7 @@
 		<dc:source>https://archive.org/details/historydeclinea19gibbgoog</dc:source>
 		<dc:source>https://archive.org/details/historydeclinea00gibbgoog</dc:source>
 		<dc:source>https://archive.org/details/bub_gb_qOosAAAAYAAJ</dc:source>
-		<!-- 1887 John Murray version -->
+		<!-- 1887 John Murray edition -->
 		<dc:source>https://archive.org/details/historyofdecline18871gibb</dc:source>
 		<dc:source>https://archive.org/details/historydeclinea04gibbgoog</dc:source>
 		<dc:source/>
@@ -79,7 +79,7 @@
 		<dc:source/>
 		<dc:source/>
 		<dc:source/>
-		<!-- clean Thomas Y. Crowell & Co. version -->
+		<!-- Thomas Y. Crowell & Co. edition, 10 volumes -->
 		<dc:source>https://archive.org/details/declinefallofrom04gibb</dc:source>
 		<dc:source/>
 		<dc:source>https://archive.org/details/declinefallofrom03gibb</dc:source>
