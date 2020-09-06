@@ -1,18 +1,35 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 abbr.era{
 	font-variant: all-small-caps;
 }
 
-span.elision{
-	margin: .5em;
-	margin-left: 3em;
+body [xml|lang]{
+	font-style: italic;
+}
+
+[xml|lang] em{
+    font-style: normal;
+}
+
+blockquote cite{
+    font-style: normal;
+    text-align: right;
 }
 
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
+}
+
+table{
+    margin: 1em auto;
+}
+
+table td:nth-child(2){
+    text-align: right;
 }
 
 /* bridgeheads */
@@ -73,3 +90,10 @@ p span.i4{
 	padding-left: 5em;
 }
 /* end verse/song/poetry */
+
+/* vertical elision in verse */
+span.elision{
+	margin: .5em;
+	margin-left: 3em;
+}
+/* end of vertical elision in verse */
