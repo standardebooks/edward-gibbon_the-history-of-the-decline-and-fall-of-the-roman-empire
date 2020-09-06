@@ -50,7 +50,7 @@
 		<dc:source>https://archive.org/details/historydeclinea03milmgoog</dc:source>
 		<dc:source>https://archive.org/details/declineandfallr02unkngoog</dc:source>
 		<dc:source/>
-		<!-- Milman 1845(?) Porter & Coates (Phil.) edition, 5 volumes; appears to match PG's transcription -->
+		<!-- Milman 1845(?) Porter & Coates (Phil.) edition, 5 volumes; matches PG's transcription -->
 		<!-- preface thru chapter 16 -->
 		<dc:source>https://archive.org/details/historyofdecline55gibb</dc:source>
 		<!-- chapter 17 thru chapter 30 -->
@@ -79,18 +79,29 @@
 		<dc:source/>
 		<dc:source/>
 		<dc:source/>
-		<!-- Thomas Y. Crowell & Co. edition, 10 volumes -->
+		<!-- Thomas Y. Crowell & Co. edition, 12 volumes -->
+		<!-- Vol 1, chapters 1 thru 9 -->
 		<dc:source>https://archive.org/details/declinefallofrom04gibb</dc:source>
-		<dc:source/>
+		<!-- Vol 3, chapters 16 thru 21 -->
 		<dc:source>https://archive.org/details/declinefallofrom03gibb</dc:source>
+		<!-- Vol 5, chapters 27 thru 33 -->
 		<dc:source>https://archive.org/details/declineandfallof05gibb</dc:source>
+		<!-- Vol 6, chapters 34 thru 39 -->
 		<dc:source>https://archive.org/details/declinefallofrom06gibb</dc:source>
+		<!-- Vol 7, chapters 40 thru 44 -->
 		<dc:source>https://archive.org/details/declinefallofrom07gibb</dc:source>
+		<!-- Vol 8, chapters 45 thru 49 -->
 		<dc:source>https://archive.org/details/declinefallofrom08gibb</dc:source>
+		<!-- Vol 9, chapters 50 thru 53 -->
 		<dc:source>https://archive.org/details/declinefallofrom09gibb</dc:source>
+		<!-- Vol 10, chapters 54 thru 60 -->
 		<dc:source>https://archive.org/details/declinefallofrom10gibb</dc:source>
+		<!-- Vol 11, chapters 61 thru 67 -->
 		<dc:source>https://archive.org/details/declinefallofrom11gibb</dc:source>
+		<!-- Vol 12, chapters 68 thru 71 -->
 		<dc:source>https://archive.org/details/declinefallofrom12gibb</dc:source>
+		<!-- online 1906 Fred de Frau edition -->
+		<dc:source>https://oll.libertyfund.org/titles/gibbon-the-history-of-the-decline-and-fall-of-the-roman-empire-vol-x</dc:source>
 		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
