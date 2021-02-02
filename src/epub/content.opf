@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/edward-gibbon/history-of-the-decline-and-fall-of-the-roman-empire</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/edward-gibbon/the-history-of-the-decline-and-fall-of-the-roman-empire</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
@@ -25,60 +25,67 @@
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
-		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
+		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
-		<dc:title id="title">History of the Decline and Fall of the Roman Empire</dc:title>
-		<meta property="file-as" refines="#title">History of the Decline and Fall of the Roman Empire</meta>
+		<dc:title id="title">The History of the Decline and Fall of the Roman Empire</dc:title>
+		<meta property="file-as" refines="#title">History of the Decline and Fall of the Roman Empire, The</meta>
 		<dc:subject id="subject-1">Rome -- History -- Empire, 30 B.C.-476 A.D.</dc:subject>
 		<dc:subject id="subject-2">Byzantine Empire -- History -- To 527</dc:subject>
 		<dc:subject id="subject-3">Indexes</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">Unknown</meta>
+		<meta property="term" refines="#subject-2">sh85018484</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">LONG_DESCRIPTION</meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+				LONG_DESCRIPTION
+		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/25717</dc:source>
-		<!-- Milman 1845 A.L Burt (NY) edition, 6-volumes -->
-		<dc:source>https://archive.org/details/historyofdecline1845gibb</dc:source>
-		<dc:source/>
-		<dc:source>https://archive.org/details/historyofdecline53gibb</dc:source>
-		<dc:source>https://archive.org/details/historydeclinea03milmgoog</dc:source>
-		<dc:source>https://archive.org/details/declineandfallr02unkngoog</dc:source>
-		<dc:source/>
-		<!-- Milman 1845(?) Porter & Coates (Phil.) edition, 5 volumes; matches PG's transcription -->
+		<!-- Milman 1845 Porter & Coates (Phil.) edition, 5 volumes; matches PG's transcription -->
 		<!-- Vol 1, preface thru chapter 16 -->
 		<dc:source>https://archive.org/details/historyofdecline55gibb</dc:source>
 		<!-- Vol 2, chapters 17 thru 30 -->
 		<dc:source>https://archive.org/details/historyofdecline54gibb</dc:source>
-		<!-- Vol 3, chapters 31 thru 43 -->
+		<!-- Vol 3, chapters 31 thru 44 -->
 		<dc:source>https://archive.org/details/historyofdecline53gibb</dc:source>
-		<!-- Vol 4, chapters 44 thru 57 -->
+		<!-- Vol 4, chapters 45 thru 57 -->
 		<dc:source>https://archive.org/details/historyofdecline52gibb</dc:source>
 		<!-- Vol 5, chapters 58 thru 71 -->
 		<dc:source>https://archive.org/details/historyofdecline51gibb</dc:source>
+		<!-- Milman 1854 Phillips, Sampson, and Company (Boston) edition, 6-volumes -->
+		<!-- Vol 1, preface thru chapter 15 -->
+		<dc:source>https://archive.org/details/romanempire01gibbuoft</dc:source>
+		<!-- Vol 2, chapters 16 thru 25 -->
+		<dc:source>https://archive.org/details/romanempire02gibbuoft</dc:source>
+		<!-- Vol 3, chapters 26 thru 38 -->
+		<dc:source>https://archive.org/details/romanempire03gibbuoft</dc:source>
+		<!-- Vol 4, chapters 39 thru 48 -->
+		<dc:source>https://archive.org/details/romanempire04gibbuoft</dc:source>
+		<!-- Vol 5, chapters 49 thru 58 -->
+		<dc:source>https://archive.org/details/romanempire05gibbuoft</dc:source>
+		<!-- Vol 6, chapters 59 thru 71 -->
+		<dc:source>https://archive.org/details/romanempire06gibbuoft</dc:source>
 		<!-- William Smith 1854/5 John Murray (London) edition, 8 volumes -->
+		<!-- Vol 1, preface thru chapter 10 -->
 		<dc:source>https://archive.org/details/historydeclinea21gibbgoog</dc:source>
+		<!-- Vol 2, chapters 11 thru 19 -->
 		<dc:source>https://archive.org/details/historydeclinea23gibbgoog</dc:source>
+		<!-- Vol 3, chapters 20 thru 28 -->
 		<dc:source>https://archive.org/details/historydeclinea22gibbgoog</dc:source>
+		<!-- Vol 4, chapters 29 thru 38 -->
 		<dc:source>https://archive.org/details/historydeclinea03gibbgoog</dc:source>
+		<!-- Vol 5, chapters 39 thru 46 -->
 		<dc:source>https://archive.org/details/historydeclinea18gibbgoog</dc:source>
+		<!-- Vol 6, chapters 47 thru 52 -->
 		<dc:source>https://archive.org/details/historydeclinea19gibbgoog</dc:source>
+		<!-- Vol 7, chapters 53 thru 63 -->
 		<dc:source>https://archive.org/details/historydeclinea00gibbgoog</dc:source>
+		<!-- Vol 8, chapters 64 thru 71 -->
 		<dc:source>https://archive.org/details/bub_gb_qOosAAAAYAAJ</dc:source>
-		<!-- William Smith 1887 John Murray (London) edition, 8 volumes -->
-		<dc:source>https://archive.org/details/historyofdecline18871gibb</dc:source>
-		<dc:source>https://archive.org/details/historydeclinea04gibbgoog</dc:source>
-		<dc:source/>
-		<dc:source/>
-		<dc:source/>
-		<dc:source/>
-		<dc:source/>
-		<dc:source/>
 		<!-- J. B. Bury 1900(?) Thomas Y. Crowell & Co. (NY) edition, 12 volumes -->
 		<!-- Vol 1, chapters 1 thru 9 -->
 		<dc:source>https://archive.org/details/declinefallofrom04gibb</dc:source>
@@ -102,28 +109,36 @@
 		<dc:source>https://archive.org/details/declinefallofrom12gibb</dc:source>
 		<!-- online 1906 Fred de Frau edition -->
 		<dc:source>https://oll.libertyfund.org/titles/gibbon-the-history-of-the-decline-and-fall-of-the-roman-empire-vol-x</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">Endnote citations were expanded to include full author names in their first occurrence, full book names (if able to be determined) in their first occurrence, and elimination of abbreviations in book and author names where possible.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/History_of_the_Decline_and_Fall_of_the_Roman_Empire</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-gibbon_history-of-the-decline-and-fall-of-the-roman-empire</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_History_of_the_Decline_and_Fall_of_the_Roman_Empire</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-gibbon_the-history-of-the-decline-and-fall-of-the-roman-empire</meta>
 		<dc:creator id="author">Edward Gibbon</dc:creator>
-		<meta property="file-as" refines="#author">AUTHOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Gibbon, Edward</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edward_Gibbon</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHOR_NACOAF_URL</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n80005416</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="editor">H. H. Milman</dc:contributor>
+		<meta property="file-as" refines="#author">Milman, H. H.</meta>
+		<meta property="full-name" refines="#author">Henry Hart Milman</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Henry_Hart_Milman</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n50033260</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">edt</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Widger, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -135,6 +150,7 @@
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="css/se.css" id="se.css" media-type="text/css"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="text/chapter-1.xhtml" id="chapter-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-2.xhtml" id="chapter-2.xhtml" media-type="application/xhtml+xml"/>
