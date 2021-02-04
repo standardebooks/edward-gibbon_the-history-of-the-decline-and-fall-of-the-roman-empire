@@ -122,12 +122,12 @@
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="editor">H. H. Milman</dc:contributor>
-		<meta property="file-as" refines="#author">Milman, H. H.</meta>
-		<meta property="full-name" refines="#author">Henry Hart Milman</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Henry_Hart_Milman</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n50033260</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">edt</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<meta property="file-as" refines="#editor">Milman, H. H.</meta>
+		<meta property="se:name.person.full-name" refines="#editor">Henry Hart Milman</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#editor">https://en.wikipedia.org/wiki/Henry_Hart_Milman</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor">https://id.loc.gov/authorities/names/n50033260</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Giovanni Battista Tiepolo</dc:contributor>
 		<meta property="file-as" refines="#artist">Tiepolo, Giovanni Battista</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Giovanni_Battista_Tiepolo</meta>
