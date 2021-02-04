@@ -6,7 +6,7 @@ abbr.era{
 	font-variant: all-small-caps;
 }
 
-body [xml|lang]{
+blockquote[xml|lang]{
 	font-style: italic;
 }
 
@@ -32,6 +32,17 @@ table td:nth-child(2){
     text-align: right;
 }
 
+/* location-specific */
+#preface-1 hr > p{
+        text-align: center;
+        margin-bottom: 1em;
+}
+
+#preface-2.authlocation{
+        margin-bottom: 1em;
+        margin-top: .5em;
+}
+
 /* bridgeheads */
 [epub|type~="bridgehead"]{
 	display: inline-block;
@@ -48,7 +59,7 @@ table td:nth-child(2){
 
 /* verse/song/poetry */
 [epub|type~="z3998:poem"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
