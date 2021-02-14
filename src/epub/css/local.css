@@ -6,43 +6,42 @@ abbr.era{
 	font-variant: all-small-caps;
 }
 
+table{
+	margin: 1em auto;
+}
+
+/* non-English blockquotes */
 blockquote[xml|lang]{
 	font-style: italic;
 }
 
-[xml|lang] em{
-    font-style: normal;
+blockquote[xml|lang] em{
+	font-style: normal;
 }
+/* end of non-English blockquotes */
 
-blockquote cite{
-    font-style: normal;
-    text-align: right;
-}
-
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
-table{
-    margin: 1em auto;
-}
-
-table td:nth-child(2){
-    text-align: right;
+/* non-English quotes with emphasis in them */
+[xml|lang] > em{
+	font-style: normal;
 }
 
 /* location-specific */
 #preface-1 hr > p{
-        text-align: center;
-        margin-bottom: 1em;
+	text-align: center;
+	margin-bottom: 1em;
 }
 
 #preface-2.authlocation{
-        margin-bottom: 1em;
-        margin-top: .5em;
+	margin-bottom: 1em;
+	margin-top: .5em;
 }
 
+#note-2-62 table td:nth-child(2){
+	text-align: right;
+}
+/* end of location-specific */
+
+/* SE standard CSS */
 /* bridgeheads */
 [epub|type~="bridgehead"]{
 	display: inline-block;
@@ -58,17 +57,13 @@ table td:nth-child(2){
 /* end bridgeheads */
 
 /* verse/song/poetry */
-[epub|type~="z3998:poem"] p{
+[epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
-}
-
-[epub|type~="z3998:verse"] + p{
-	text-indent: 0;
 }
 
 [epub|type~="z3998:verse"] p > span{
