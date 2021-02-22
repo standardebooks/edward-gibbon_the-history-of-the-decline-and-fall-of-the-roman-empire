@@ -39,6 +39,16 @@ blockquote[xml|lang] em{
 #note-2-62 table td:nth-child(2){
 	text-align: right;
 }
+
+#note-10-1581 table th{
+	font-weight: normal;
+	padding-right: 1em;
+	text-align: center;
+}
+
+#note-10-1581 table > thead > tr:last-of-type{
+	font-size: 85%;
+}
 /* end of location-specific */
 
 /* SE standard CSS */
