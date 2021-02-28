@@ -89,6 +89,8 @@
 		<!-- J. B. Bury 1900(?) Thomas Y. Crowell & Co. (NY) edition, 12 volumes -->
 		<!-- Vol 1, chapters 1 thru 9 -->
 		<dc:source>https://archive.org/details/declinefallofrom04gibb</dc:source>
+		<!-- Vol 2, chapters 10 thru 15 (diff. edition but same 12 volumes) -->
+		<dc:source>https://catalog.hathitrust.org/Record/012155499</dc:source>
 		<!-- Vol 3, chapters 16 thru 21 -->
 		<dc:source>https://archive.org/details/declinefallofrom03gibb</dc:source>
 		<!-- Vol 5, chapters 27 thru 33 -->
@@ -109,7 +111,7 @@
 		<dc:source>https://archive.org/details/declinefallofrom12gibb</dc:source>
 		<!-- online 1906 Fred de Frau edition -->
 		<dc:source>https://oll.libertyfund.org/titles/gibbon-the-history-of-the-decline-and-fall-of-the-roman-empire-vol-x</dc:source>
-		<meta property="se:production-notes">Endnote citations were expanded to include full author names in their first occurrence, full book names (if able to be determined) in their first occurrence, and elimination of abbreviations in book and author names where possible.</meta>
+		<meta property="se:production-notes">Endnote citations were expanded to include full author names in their first occurrence, full book names (if able to be determined) in their first occurrence, and elimination of abbreviations in all remaining book and author names where possible. A few author names were corrected to their modern spelling (e.g. Leclerc, Jerome). The transcription was missing italics, diacritics and all Greek quotations, these have been restored.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_History_of_the_Decline_and_Fall_of_the_Roman_Empire</meta>
