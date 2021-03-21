@@ -64,6 +64,10 @@ blockquote[xml|lang] em{
 [epub|type~="bridgehead"] i{
 	font-style: normal;
 }
+
+[epub|type~="z3998:verse"] [epub|type~="bridgehead"]{
+	text-align: justify;
+}
 /* end bridgeheads */
 
 /* verse/song/poetry */
