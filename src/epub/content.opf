@@ -56,64 +56,41 @@
 		<dc:source>https://archive.org/details/historyofdecline52gibb</dc:source>
 		<!-- Vol 5, chapters 58 thru 71 -->
 		<dc:source>https://archive.org/details/historyofdecline51gibb</dc:source>
-		<!-- Milman 1854 Phillips, Sampson, and Company (Boston) edition, 6-volumes -->
-		<!-- Vol 1, preface thru chapter 15 -->
-		<dc:source>https://archive.org/details/romanempire01gibbuoft</dc:source>
-		<!-- Vol 2, chapters 16 thru 25 -->
-		<dc:source>https://archive.org/details/romanempire02gibbuoft</dc:source>
-		<!-- Vol 3, chapters 26 thru 38 -->
-		<dc:source>https://archive.org/details/romanempire03gibbuoft</dc:source>
-		<!-- Vol 4, chapters 39 thru 48 -->
-		<dc:source>https://archive.org/details/romanempire04gibbuoft</dc:source>
-		<!-- Vol 5, chapters 49 thru 58 -->
-		<dc:source>https://archive.org/details/romanempire05gibbuoft</dc:source>
-		<!-- Vol 6, chapters 59 thru 71 -->
-		<dc:source>https://archive.org/details/romanempire06gibbuoft</dc:source>
-		<!-- William Smith 1854/5 John Murray (London) edition, 8 volumes -->
-		<!-- Vol 1, preface thru chapter 10 -->
-		<dc:source>https://archive.org/details/historydeclinea21gibbgoog</dc:source>
-		<!-- Vol 2, chapters 11 thru 19 -->
-		<dc:source>https://archive.org/details/historydeclinea23gibbgoog</dc:source>
-		<!-- Vol 3, chapters 20 thru 28 -->
-		<dc:source>https://books.google.com/books?vid=UCD:31175008557194</dc:source>
-		<!-- Vol 4, chapters 29 thru 38 -->
-		<dc:source>https://archive.org/details/historydeclinea03gibbgoog</dc:source>
-		<!-- Vol 5, chapters 39 thru 46 -->
-		<dc:source>https://archive.org/details/historydeclinea18gibbgoog</dc:source>
-		<!-- Vol 6, chapters 47 thru 52 -->
-		<dc:source>https://archive.org/details/historydeclinea19gibbgoog</dc:source>
-		<!-- Vol 7, chapters 53 thru 63 -->
-		<dc:source>https://books.google.com/books?id=DqBBAQAAMAAJ</dc:source>
-		<!-- Vol 8, chapters 64 thru 71 -->
-		<dc:source>https://books.google.com/books?id=SaBBAQAAMAAJ</dc:source>
-		<!-- J. B. Bury 1900(?) Thomas Y. Crowell & Co. (NY) edition, 12 volumes -->
-		<!-- Vol 1, chapters 1 thru 9 -->
-		<dc:source>https://archive.org/details/declinefallofrom04gibb</dc:source>
-		<!-- Vol 2, chapters 10 thru 15 (diff. edition but same 12 volumes) -->
-		<dc:source>https://catalog.hathitrust.org/Record/012155499</dc:source>
-		<!-- Vol 3, chapters 16 thru 21 -->
-		<dc:source>https://archive.org/details/declinefallofrom03gibb</dc:source>
-		<!-- Vol 4, chapters 22 thru 26 (diff. edition but same 12 volumes) -->
-		<dc:source>https://catalog.hathitrust.org/Record/007112165</dc:source>
-		<!-- Vol 5, chapters 27 thru 33 -->
-		<dc:source>https://archive.org/details/declineandfallof05gibb</dc:source>
-		<!-- Vol 6, chapters 34 thru 39 -->
-		<dc:source>https://archive.org/details/declinefallofrom06gibb</dc:source>
-		<!-- Vol 7, chapters 40 thru 44 -->
-		<dc:source>https://archive.org/details/declinefallofrom07gibb</dc:source>
-		<!-- Vol 8, chapters 45 thru 49 -->
-		<dc:source>https://archive.org/details/declinefallofrom08gibb</dc:source>
-		<!-- Vol 9, chapters 50 thru 53 -->
-		<dc:source>https://archive.org/details/declinefallofrom09gibb</dc:source>
-		<!-- Vol 10, chapters 54 thru 60 -->
-		<dc:source>https://archive.org/details/declinefallofrom10gibb</dc:source>
-		<!-- Vol 11, chapters 61 thru 67 -->
-		<dc:source>https://archive.org/details/declinefallofrom11gibb</dc:source>
-		<!-- Vol 12, chapters 68 thru 71 -->
-		<dc:source>https://archive.org/details/declinefallofrom12gibb</dc:source>
 		<!-- online 1906 Fred de Frau edition -->
-		<dc:source>https://oll.libertyfund.org/titles/gibbon-the-history-of-the-decline-and-fall-of-the-roman-empire-vol-x</dc:source>
-		<meta property="se:production-notes">Endnote citations were expanded to include full author names in their first occurrence, full book names (if able to be determined) in their first occurrence, and elimination of abbreviations in all remaining book and author names where possible. A few author names were corrected to their modern spelling (e.g. Leclerc, Jerome). The transcription was missing italics, diacritics and all Greek quotations, these have been restored.</meta>
+<dc:source>https://oll.libertyfund.org/titles/gibbon-the-history-of-the-decline-and-fall-of-the-roman-empire-vol-x</dc:source>
+		<meta property="se:production-notes">Endnote citations were expanded to include full author names in their first occurrence, full book names (if able to be determined) in their first occurrence, and elimination of abbreviations in all remaining book and author names where possible. A few author names were corrected to their modern spelling (e.g. Leclerc, Jerome). The transcription was missing italics, diacritics and all Greek quotations, these have been restored.
+		In addition to the source scans listed above, whose content and notes match the PG transcription, the following scans were used for punctuation, for clarity (especially of Greek endnotes), and where the source scans were visually distorted.
+		Smith
+			Vol 1, chapters  1–10, https://archive.org/details/historydeclinea21gibbgoog
+			Vol 2, chapters 11–19, https://archive.org/details/historydeclinea23gibbgoog
+			Vol 3, chapters 20–28, https://books.google.com/books?vid=UCD:31175008557194
+			Vol 4, chapters 29–38, https://archive.org/details/historydeclinea03gibbgoog
+			Vol 5, chapters 39–46, https://archive.org/details/historydeclinea18gibbgoog
+			Vol 6, chapters 47–52, https://archive.org/details/historydeclinea19gibbgoog
+			Vol 7, chapters 53–63, https://books.google.com/books?id=DqBBAQAAMAAJ
+			Vol 8, chapters 64–71, https://books.google.com/books?id=SaBBAQAAMAAJ
+		Bury 12-volume, Thomas Y. Crowell & Co (NY)
+			Vol  1, chapters  1–9, https://archive.org/details/declinefallofrom04gibb
+			Vol  2, chapters 10–15, https://catalog.hathitrust.org/Record/012155499
+			Vol  3, chapters 16–21, https://archive.org/details/declinefallofrom03gibb
+			Vol  4, chapters 22–26, https://catalog.hathitrust.org/Record/007112165
+			Vol  5, chapters 27–33, https://archive.org/details/declineandfallof05gibb
+			Vol  6, chapters 34–39, https://archive.org/details/declinefallofrom06gibb
+			Vol  7, chapters 40–44, https://archive.org/details/declinefallofrom07gibb
+			Vol  8, chapters 45–49, https://archive.org/details/declinefallofrom08gibb
+			Vol  9, chapters 50–53, https://archive.org/details/declinefallofrom09gibb
+			Vol 10, chapters 54–60, https://archive.org/details/declinefallofrom10gibb
+			Vol 11, chapters 61–67, https://archive.org/details/declinefallofrom11gibb
+			Vol 12, chapters 68–71, https://archive.org/details/declinefallofrom12gibb
+		Bury 7-volume, Methuen & Co (London), 1897
+			Vol 1, chapters  1–14, https://archive.org/details/historyofdecl01gibb
+			Vol 2, chapters 15–24, https://archive.org/details/historydeclinea00burygoog
+			Vol 3, chapters 25–35, https://archive.org/details/historyofdecl03gibb
+			Vol 4, chapters 36–44, https://archive.org/details/historyofdecline04gibbuoft
+			Vol 5, chapters 45–51, https://archive.org/details/historyofdecl05gibb
+			Vol 6, chapters 52–63, https://archive.org/details/historyofdecl06gibb
+			Vol 7, chapters 64–71, https://archive.org/details/historyofdecl07gibb
+		</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_History_of_the_Decline_and_Fall_of_the_Roman_Empire</meta>
