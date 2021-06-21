@@ -115,6 +115,11 @@ p span.i4{
 	padding-left: 5em;
 }
 
+p span.i6{
+	text-indent: -1em;
+	padding-left: 7em;
+}
+
 p span.i8{
 	text-indent: -1em;
 	padding-left: 9em;
