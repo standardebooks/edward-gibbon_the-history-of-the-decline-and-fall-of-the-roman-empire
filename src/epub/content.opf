@@ -46,7 +46,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/25717</dc:source>
 		<!-- Milman 1845 Porter & Coates (Phil.) edition, 5 volumes; matches PG's transcription -->
-		<!-- Vol 1, preface thru chapter 16 -->
+		<!-- Vol 1, prefaces thru chapter 16 -->
 		<dc:source>https://archive.org/details/historyofdecline55gibb</dc:source>
 		<!-- Vol 2, chapters 17 thru 30 -->
 		<dc:source>https://archive.org/details/historyofdecline54gibb</dc:source>
@@ -56,9 +56,14 @@
 		<dc:source>https://archive.org/details/historyofdecline52gibb</dc:source>
 		<!-- Vol 5, chapters 58 thru 71 -->
 		<dc:source>https://archive.org/details/historyofdecline51gibb</dc:source>
-		<!-- online 1906 Fred de Frau edition -->
-<dc:source>https://oll.libertyfund.org/titles/gibbon-the-history-of-the-decline-and-fall-of-the-roman-empire-vol-x</dc:source>
-		<meta property="se:production-notes">Endnote citations were expanded to include full author names in their first occurrence, full book names (if able to be determined) in their first occurrence, and elimination of abbreviations in all remaining book and author names where possible. A few author names were corrected to their modern spelling (e.g. Leclerc, Jerome). The transcription was missing italics, diacritics and all Greek quotations, these have been restored.
+		<meta property="se:production-notes">Endnote citations were expanded to include full author names in their first occurrence, full book names (if able to be determined) in their first occurrence, and elimination of abbreviations in all remaining book and author names where possible. A few author names were corrected to their modern spelling (e.g. Leclerc, Jerome). The transcription was missing all italics, diacritics, and Greek quotations; these have all been restored. There were thousands (literally) of transcription typos both in the text and primarily the endnotes; a side-by-side review of the scans/text was done to catch and correct as many of these as possible.
+		First edition chapter breakdown:
+			Vol 1, chapters  1-16
+			Vol 2, chapters 17-26
+			Vol 3, chapters 27-38
+			Vol 4, chapters 39-47
+			Vol 5, chapters 48-57
+			Vol 6, chapters 58-71
 		In addition to the source scans listed above, whose content and notes match the PG transcription, the following scans were used for punctuation, for clarity (especially of Greek endnotes), and where the source scans were visually distorted.
 		Smith
 			Vol 1, chapters  1–10, https://archive.org/details/historydeclinea21gibbgoog
@@ -69,7 +74,7 @@
 			Vol 6, chapters 47–52, https://archive.org/details/historydeclinea19gibbgoog
 			Vol 7, chapters 53–63, https://books.google.com/books?id=DqBBAQAAMAAJ
 			Vol 8, chapters 64–71, https://books.google.com/books?id=SaBBAQAAMAAJ
-		Bury 12-volume, Thomas Y. Crowell &amp; Co. (NY)
+		Bury 12-volume, Thomas Y. Crowell &amp; Co. (New York)
 			Vol  1, chapters  1–9, https://archive.org/details/declinefallofrom04gibb
 			Vol  2, chapters 10–15, https://catalog.hathitrust.org/Record/012155499
 			Vol  3, chapters 16–21, https://archive.org/details/declinefallofrom03gibb
@@ -90,6 +95,8 @@
 			Vol 5, chapters 45–51, https://archive.org/details/historyofdecl05gibb
 			Vol 6, chapters 52–63, https://archive.org/details/historyofdecl06gibb
 			Vol 7, chapters 64–71, https://archive.org/details/historyofdecl07gibb
+		Bury 12-volume, Fred de Fau and Co. (New York), 1906
+			https://oll.libertyfund.org/title/lecky-the-history-of-the-decline-and-fall-of-the-roman-empire-12-vols
 		</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
