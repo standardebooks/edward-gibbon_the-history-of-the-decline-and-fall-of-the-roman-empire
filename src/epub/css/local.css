@@ -20,7 +20,8 @@ blockquote[xml|lang]{
 	font-style: italic;
 }
 
-blockquote[xml|lang] em{
+blockquote[xml|lang] em,
+blockquote[xml|lang] i{
 	font-style: normal;
 }
 /* end of non-English blockquotes */
