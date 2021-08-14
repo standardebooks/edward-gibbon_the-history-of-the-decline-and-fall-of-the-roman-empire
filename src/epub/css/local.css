@@ -55,6 +55,10 @@ blockquote[xml|lang] i{
 #note-10-1581 table > thead > tr:last-of-type{
 	font-size: 85%;
 }
+
+#chapter-43 hr + p{
+	margin-bottom: 1em;
+}
 /* end of location-specific */
 
 /* SE standard CSS */
