@@ -2,12 +2,16 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
-abbr.era{
+abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
 q{
 	font-style: italic;
+}
+
+section{
+	break-after: page;
 }
 
 table{
@@ -21,13 +25,15 @@ blockquote[xml|lang]{
 }
 
 blockquote[xml|lang] em,
-blockquote[xml|lang] i{
+blockquote[xml|lang] i,
+blockquote[xml|lang] strong{
 	font-style: normal;
 }
 /* end of non-English blockquotes */
 
 /* non-English quotes with emphasis in them */
-[xml|lang] > em{
+[xml|lang] > em,
+[xml|lang] > strong{
 	font-style: normal;
 }
 
@@ -42,7 +48,8 @@ blockquote[xml|lang] i{
 	margin-top: .5em;
 }
 
-#note-2-62 table td:nth-child(2){
+#note-2-62 table td:nth-child(2),
+#note-49-981 table td:first-child{
 	text-align: right;
 }
 
@@ -58,6 +65,10 @@ blockquote[xml|lang] i{
 
 #chapter-43 hr + p{
 	margin-bottom: 1em;
+}
+
+#note-49-981 table td:nth-child(2){
+	text-align: center;
 }
 /* end of location-specific */
 
