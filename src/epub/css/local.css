@@ -70,6 +70,14 @@ blockquote[xml|lang] strong{
 #note-49-981 table td:nth-child(2){
 	text-align: center;
 }
+
+#note-58-41 table{
+	border-collapse: collapse;
+}
+
+#note-58-41 table, th, td{
+	border: 1px solid;
+}
 /* end of location-specific */
 
 /* SE standard CSS */
