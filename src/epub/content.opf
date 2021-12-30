@@ -56,7 +56,9 @@
 		<dc:source>https://archive.org/details/historyofdecline52gibb</dc:source>
 		<!-- Vol 5, chapters 58 thru 71 -->
 		<dc:source>https://archive.org/details/historyofdecline51gibb</dc:source>
-		<meta property="se:production-notes">Endnote citations were expanded to include full author names in their first occurrence, full book names (if able to be determined) in their first occurrence, and elimination of abbreviations in all remaining book and author names where possible. A few author names were corrected to their modern spelling (e.g. Leclerc, Jerome). The transcription was missing all italics, diacritics, and Greek quotations; these have all been restored. There were thousands (literally) of transcription typos both in the text and primarily the endnotes; a side-by-side review of the scans/text was done to catch and correct as many of these as possible.
+		<meta property="se:production-notes">Endnote citations were expanded to include full author names in their first occurrence, full book names (if able to be determined) in their first occurrence, and elimination of abbreviations in all remaining book and author names where possible. A few author names were corrected to their modern spelling (e.g. Leclerc, Jerome).
+		The transcription was missing all italics, diacritics, and Greek quotations; these have all been restored. There were thousands (literally) of transcription typos both in the text and primarily the endnotes; a side-by-side review of the scans/text was done to catch and correct as many of these as possible.
+		The transcription included chapter titles. These do not exist in any of the scans/printed editions, so were removed.
 		First edition chapter breakdown:
 			Vol 1, chapters  1-16
 			Vol 2, chapters 17-26
@@ -64,7 +66,7 @@
 			Vol 4, chapters 39-47
 			Vol 5, chapters 48-57
 			Vol 6, chapters 58-71
-		In addition to the source scans listed above, the following scans were used for punctuation, for clarity (especially of Greek endnotes), for a few additional notes, and where the source scans were visually distorted.
+		In addition to the source scans listed above, the following scans were used for correcting typos, punctuation, for clarity (especially of Greek endnotes), for a few additional notes, and where the source scans were visually distorted.
 		Smith
 			Vol 1, chapters  1–10, https://archive.org/details/historydeclinea00smitgoog
 			Vol 2, chapters 11–19, https://archive.org/details/historydeclinea23gibbgoog
