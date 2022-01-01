@@ -75,7 +75,9 @@ blockquote[xml|lang] strong{
 	border-collapse: collapse;
 }
 
-#note-58-41 table, th, td{
+#note-58-41 table,
+th,
+td{
 	border: 1px solid;
 }
 /* end of location-specific */

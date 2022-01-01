@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-        <file path="endnotes.xhtml">
-                <ignore>
-                        <code>s-045</code>
-                        <reason>The abbreviations represent the actual printing on a medallion, and therefore need to stay as is.</reason>
-                </ignore>
-        </file>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>s-045</code>
+			<reason>The abbreviations represent the actual printing on a medallion, and therefore need to stay as is.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
