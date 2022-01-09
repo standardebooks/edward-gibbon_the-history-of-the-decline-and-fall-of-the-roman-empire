@@ -80,6 +80,11 @@ th,
 td{
 	border: 1px solid;
 }
+
+#chapter-61 > div > header{
+	font-style: italic;
+	margin-bottom: 1em;
+}
 /* end of location-specific */
 
 /* SE standard CSS */
