@@ -6,6 +6,11 @@ abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
+footer{
+	margin-top: 1em;
+	text-align: initial;
+}
+
 q{
 	font-style: italic;
 }
@@ -36,6 +41,7 @@ blockquote[xml|lang] strong{
 [xml|lang] > strong{
 	font-style: normal;
 }
+/* end of non-English quotes with emphasis in them */
 
 /* location-specific */
 #preface-1 hr + p{
