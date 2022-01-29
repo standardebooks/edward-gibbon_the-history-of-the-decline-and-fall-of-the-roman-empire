@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="content.opf">
+		<ignore>
+			<code>t-001</code>
+			<reason>There are valid double-spaces in the formatted portion of the production notes.</reason>
+		</ignore>
+	</file>
 	<file path="endnotes.xhtml">
 		<ignore>
 			<code>s-045</code>
 			<reason>The abbreviations represent the actual printing on a medallion, and therefore need to stay as is.</reason>
+		</ignore>
+		<ignore>
+			<code>s-094</code>
+			<reason>Endnotes have not been renumbered yet.</reason>
+		</ignore>
+		<ignore>
+			<code>t-024</code>
+			<reason>The sentence in quotes is just a portion of the entire quote, and so the tags are outside the quote marks.</reason>
+		</ignore>
+		<ignore>
+			<code>t-066</code>
+			<reason>The Roman numeral isn’t a regnal.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-*.xhtml">
+		<ignore>
+			<code>t-012</code>
+			<reason>There are many instances of two adjacent footnotes from different sources, e.g. author and editor; these need to be separated by a space for readability.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
