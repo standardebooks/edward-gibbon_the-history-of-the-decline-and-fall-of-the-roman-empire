@@ -93,6 +93,8 @@
 		<dc:source>https://catalog.hathitrust.org/Record/012155499</dc:source>
 		<!-- Vol 3, chapters 16 thru 21 -->
 		<dc:source>https://archive.org/details/declinefallofrom03gibb</dc:source>
+		<!-- Vol 4, chapters 22 thru 26 (diff. edition but same 12 volumes) -->
+		<dc:source>https://catalog.hathitrust.org/Record/007112165</dc:source>
 		<!-- Vol 5, chapters 27 thru 33 -->
 		<dc:source>https://archive.org/details/declineandfallof05gibb</dc:source>
 		<!-- Vol 6, chapters 34 thru 39 -->
