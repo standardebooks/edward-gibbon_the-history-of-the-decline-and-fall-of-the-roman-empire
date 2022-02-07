@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="chapter-*.xhtml">
+		<ignore>
+			<code>t-012</code>
+			<reason>There are many instances of two adjacent footnotes from different sources, e.g. author and editor; these need to be separated by a space for readability.</reason>
+		</ignore>
+	</file>
 	<file path="content.opf">
 		<ignore>
 			<code>t-001</code>
@@ -12,6 +18,18 @@
 			<reason>The abbreviations represent the actual printing on a medallion, and therefore need to stay as is.</reason>
 		</ignore>
 		<ignore>
+			<code>s-064</code>
+			<reason>Citations are for bracketed portion only, and therefore do not have cite tag, which is reserved for an endnote as a whole.</reason>
+		</ignore>
+		<ignore>
+			<code>s-081</code>
+			<reason>The paragraphs are notes on the endnote, so do not need and should not have a continued class.</reason>
+		</ignore>
+		<ignore>
+			<code>s-084</code>
+			<reason>These instances are referring to the novel of Apuleius, not the poem of Ovid.</reason>
+		</ignore>
+		<ignore>
 			<code>s-094</code>
 			<reason>Endnotes have not been renumbered yet.</reason>
 		</ignore>
@@ -20,14 +38,16 @@
 			<reason>The sentence in quotes is just a portion of the entire quote, and so the tags are outside the quote marks.</reason>
 		</ignore>
 		<ignore>
+			<code>t-042</code>
+			<reason>The "letter" is the superscript for the note(s) on the endnote, not actual text.</reason>
+		</ignore>
+		<ignore>
+			<code>t-057</code>
+			<reason>The "lowercase letter" is the superscript for the note(s) on the endnote, not actual text.</reason>
+		</ignore>
+		<ignore>
 			<code>t-066</code>
 			<reason>The Roman numeral isn’t a regnal.</reason>
-		</ignore>
-	</file>
-	<file path="chapter-*.xhtml">
-		<ignore>
-			<code>t-012</code>
-			<reason>There are many instances of two adjacent footnotes from different sources, e.g. author and editor; these need to be separated by a space for readability.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
