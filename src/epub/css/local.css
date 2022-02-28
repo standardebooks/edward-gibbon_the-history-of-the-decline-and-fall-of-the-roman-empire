@@ -54,6 +54,15 @@ blockquote[xml|lang] strong{
 	margin-top: .5em;
 }
 
+#chapter-43 hr + p{
+	margin-bottom: 1em;
+}
+
+#chapter-61 > div > header{
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
 #note-2-62 table td:nth-child(2),
 #note-49-981 table td:first-child{
 	text-align: right;
@@ -69,8 +78,10 @@ blockquote[xml|lang] strong{
 	font-size: 85%;
 }
 
-#chapter-43 hr + p{
-	margin-bottom: 1em;
+#note-20-35 div{
+	float: right;
+	padding-left: 1em;
+	padding-top: 1em;
 }
 
 #note-49-981 table td:nth-child(2){
@@ -85,11 +96,6 @@ blockquote[xml|lang] strong{
 th,
 td{
 	border: 1px solid;
-}
-
-#chapter-61 > div > header{
-	font-style: italic;
-	margin-bottom: 1em;
 }
 /* end of location-specific */
 
