@@ -14,6 +14,10 @@
 	</file>
 	<file path="endnotes.xhtml">
 		<ignore>
+			<code>s-039</code>
+			<reason>The ibids are only used for references within the same endnote.</reason>
+		</ignore>
+		<ignore>
 			<code>s-045</code>
 			<reason>The abbreviations represent the actual printing on a medallion, and therefore need to stay as is.</reason>
 		</ignore>

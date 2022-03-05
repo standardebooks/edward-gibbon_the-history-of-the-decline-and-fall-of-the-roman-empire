@@ -34,14 +34,12 @@ blockquote[xml|lang] i,
 blockquote[xml|lang] strong{
 	font-style: normal;
 }
-/* end of non-English blockquotes */
 
-/* non-English quotes with emphasis in them */
 [xml|lang] > em,
 [xml|lang] > strong{
 	font-style: normal;
 }
-/* end of non-English quotes with emphasis in them */
+/* end of non-English blockquotes */
 
 /* location-specific */
 #preface-1 hr + p{
@@ -64,27 +62,21 @@ blockquote[xml|lang] strong{
 }
 
 #note-2-62 table td:nth-child(2),
-#note-49-981 table td:first-child{
+#note-49-98-1 table td:first-child{
 	text-align: right;
 }
 
-#note-10-1581 table th{
+#note-10-158-1 table th{
 	font-weight: normal;
 	padding-right: 1em;
 	text-align: center;
 }
 
-#note-10-1581 table > thead > tr:last-of-type{
-	font-size: 85%;
+#note-10-158-1 table > thead > tr:last-of-type{
+	font-size: .85em;
 }
 
-#note-20-35 div{
-	float: right;
-	padding-left: 1em;
-	padding-top: 1em;
-}
-
-#note-49-981 table td:nth-child(2){
+#note-49-98-1 table td:nth-child(2){
 	text-align: center;
 }
 
@@ -108,28 +100,21 @@ td{
 	text-align: justify;
 	text-indent: 0;
 }
-
-[epub|type~="bridgehead"] i{
-	font-style: normal;
-}
-
-[epub|type~="z3998:verse"] [epub|type~="bridgehead"]{
-	text-align: justify;
-}
 /* end bridgeheads */
 
 /* verse/song/poetry */
+[epub|type~="z3998:hymn"] p,
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:song"] p + p,
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
 
+[epub|type~="z3998:hymn"] p > span,
 [epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
@@ -137,7 +122,7 @@ td{
 	padding-left: 1em;
 }
 
-[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:hymn"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
