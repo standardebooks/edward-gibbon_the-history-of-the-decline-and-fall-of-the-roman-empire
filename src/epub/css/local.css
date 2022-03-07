@@ -61,6 +61,11 @@ blockquote[xml|lang] strong{
 	margin-bottom: 1em;
 }
 
+section[epub|type~="endnotes"] > ol > li > ol{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
 #note-2-62 table td:nth-child(2),
 #note-49-98-1 table td:first-child{
 	text-align: right;
