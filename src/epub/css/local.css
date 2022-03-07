@@ -43,8 +43,8 @@ blockquote[xml|lang] strong{
 
 /* location-specific */
 #preface-1 hr + p{
-	text-align: center;
 	margin-bottom: 1em;
+	text-align: center;
 }
 
 #preface-2 .authlocation{
@@ -123,8 +123,8 @@ td{
 [epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
-	text-indent: -1em;
 	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:hymn"] p > span + br,
@@ -133,33 +133,33 @@ td{
 }
 
 p span.i1{
-	text-indent: -1em;
 	padding-left: 2em;
+	text-indent: -1em;
 }
 
 p span.i2{
-	text-indent: -1em;
 	padding-left: 3em;
+	text-indent: -1em;
 }
 
 p span.i3{
-	text-indent: -1em;
 	padding-left: 4em;
+	text-indent: -1em;
 }
 
 p span.i4{
-	text-indent: -1em;
 	padding-left: 5em;
+	text-indent: -1em;
 }
 
 p span.i6{
-	text-indent: -1em;
 	padding-left: 7em;
+	text-indent: -1em;
 }
 
 p span.i8{
-	text-indent: -1em;
 	padding-left: 9em;
+	text-indent: -1em;
 }
 /* end verse/song/poetry */
 
