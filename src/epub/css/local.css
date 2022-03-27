@@ -19,6 +19,14 @@ section{
 	break-after: page;
 }
 
+span.timeline{
+	float: right;
+	font-size: .75em;
+	margin: .5em 0 .5em 1em;
+	text-align: right;
+	text-indent: 0;
+}
+
 table{
 	font-variant-numeric: tabular-nums;
 	margin: 1em auto;
