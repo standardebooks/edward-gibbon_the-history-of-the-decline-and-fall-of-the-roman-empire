@@ -32,8 +32,9 @@ table{
 	margin: 1em auto;
 }
 
-/* non-English blockquotes */
-blockquote[xml|lang]{
+/* non-English blockquotes and text in blockquotes */
+blockquote[xml|lang],
+blockquote > p[xml|lang]{
 	font-style: italic;
 }
 
@@ -74,7 +75,15 @@ section[epub|type~="endnotes"] > ol > li > ol{
 	margin-top: 0;
 }
 
-#note-2-62 table td:nth-child(2),
+#note-2-62 table tr:nth-child(16) td:last-child{
+	border-bottom: 1px solid;
+}
+
+#note-2-62 table tr:last-child td:first-child{
+	text-indent: 1em;
+}
+
+#note-2-62 table td:last-child,
 #note-49-98-1 table td:first-child{
 	text-align: right;
 }
@@ -95,11 +104,6 @@ section[epub|type~="endnotes"] > ol > li > ol{
 
 #note-58-41 table{
 	border-collapse: collapse;
-}
-
-#note-58-41 table,
-th,
-td{
 	border: 1px solid;
 }
 /* end of location-specific */
