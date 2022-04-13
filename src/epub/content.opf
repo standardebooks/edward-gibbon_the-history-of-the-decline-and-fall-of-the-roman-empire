@@ -55,9 +55,14 @@
 		<dc:source>https://archive.org/details/historyofdecline52gibb</dc:source>
 		<!-- Vol 5, chapters 58 thru 71 -->
 		<dc:source>https://archive.org/details/historyofdecline51gibb</dc:source>
-		<meta property="se:production-notes">Endnote citations were expanded to include full author names in their first occurrence, full book names (if able to be determined) in their first occurrence, and elimination of abbreviations in all remaining book and author names where possible. A few author names were corrected to their modern spelling (e.g. Leclerc, Jerome).
-		The transcription was missing all italics, diacritics, and Greek quotations; these have all been restored. There were thousands (literally) of transcription typos both in the text and primarily the endnotes; a side-by-side review of the scans/text was done to catch and correct as many of these as possible.
-		The transcription included chapter titles. These do not exist in any of the scans/printed editions, so were removed.
+		<meta property="se:production-notes">Endnote references were expanded to include full author names in their first occurrence, full publication names (if able to be determined) in their first occurrence, and elimination of abbreviations in all remaining author and publication names where possible. A few author names were corrected to their modern spelling (e.g. Leclerc, Jerome), and a few Chinese names were converted to Wade-Giles spelling.
+		The transcription was missing all italics, diacritics, and Greek quotations; these have all been restored. None of the non-English quotations (Latin, French, German, etc.) were identified or marked, these have all been tagged and italicized. Thousands of transcription typos both in the text and primarily the endnotes were corrected via a side-by-side review of the scans/text, and a second proofreading pass after the corrections.
+		Latin words/abbreviations beginning with ad (e.g. ad loc.) and in (e.g. in loc.) have been tagged and italicized, in keeping with SE's policy of tagging Latin abbreviations that begin with English words, e.g. ad hominem, in extremis, etc., to prevent confusion.
+		Gibbon often introduces subjects (usually people groups) using italics. Per a discussion with the Editor-in-Chief on the list, this italicization (as emphasis) has been kept. Since Gibbon typically only italicizes the first occurrence, this seemed the best course to take.
+		At attempt was made to standardize punctuation on references. Those of type “Author/Work X 1” or “Author, Work X 1” have only a comma between Author and Work in the latter case. Those of “Author/Work, l./tom./etc. X [c. Y][, p. Z]”, “Author, Work, l./tom./etc. X [c. Y][, p. Z]” have comma between author and work, between author/work and volume, and before page number(s).
+		Because Gibbon jumps around in the chronology of the history, shoulder notes from the Smith edition below were added to the text, containing the date(s) the events under discussion take place. The notes contain only the date(s), and usually only when the year changes.
+		The endnotes resulted in a 2,500 page file in the epub, which current readers do not handle well. The current edition breaks that up into six files, according to the chapter breakdown in the first edition below. That is, endnote-1 contains endnotes for chapters 1–16, and so forth. This is invisible to the reader when viewing the endnotes themselves; the only indication is the presence of the six files in the Table of Contents.
+		The PG transcription included chapter titles. These do not exist in any of the scans/printed editions, so were removed.
 		First edition chapter breakdown:
 			Vol 1, chapters  1-16
 			Vol 2, chapters 17-26
@@ -65,7 +70,7 @@
 			Vol 4, chapters 39-47
 			Vol 5, chapters 48-57
 			Vol 6, chapters 58-71
-		In addition to the source scans listed above, the following scans were used for correcting typos, punctuation, for clarity (especially of Greek endnotes), for a few additional notes, and where the source scans were visually distorted.
+		In addition to the source scans listed above, the following scans were used for correcting typos, punctuation, for clarity (especially of Greek endnotes), for a few additional notes, and where the Milman source scans were visually distorted.
 		Smith
 			Vol 1, chapters  1–10, https://archive.org/details/historydeclinea00smitgoog
 			Vol 2, chapters 11–19, https://archive.org/details/historydeclinea23gibbgoog
@@ -76,7 +81,7 @@
 			Vol 7, chapters 53–63, https://books.google.com/books?id=DqBBAQAAMAAJ
 			Vol 8, chapters 64–71, https://books.google.com/books?id=SaBBAQAAMAAJ
 		Bury 12-volume, Thomas Y. Crowell &amp; Co. (New York)
-			Vol  1, chapters  1–9, https://archive.org/details/declinefallofrom04gibb
+			Vol  1, chapters  1– 9, https://archive.org/details/declinefallofrom04gibb
 			Vol  2, chapters 10–15, https://catalog.hathitrust.org/Record/012155499
 			Vol  3, chapters 16–21, https://archive.org/details/declinefallofrom03gibb
 			Vol  4, chapters 22–26, https://catalog.hathitrust.org/Record/007112165
@@ -98,6 +103,9 @@
 			Vol 7, chapters 64–71, https://archive.org/details/historyofdecl07gibb
 		Bury 12-volume, Fred de Fau and Co. (New York), 1906
 			https://oll.libertyfund.org/title/lecky-the-history-of-the-decline-and-fall-of-the-roman-empire-12-vols
+
+		When notes refer to page#’s in the above Milman scans used by PG (from his updated 1854 five-volume edition), the page numbers were not updated from his original 1838 twelve-volume edition, and thus are useless for reference. For notes that appear in the other above editions (Smith and/or Bury), those editions provide a means of identifying the correct page. However, there are notes that only exist in the Milman editions; for those, this Hathi scan of his original 1838 edition was used to determine the correct page being referred to.
+			https://catalog.hathitrust.org/Record/100726893
 		</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
