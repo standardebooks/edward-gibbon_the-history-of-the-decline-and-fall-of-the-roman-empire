@@ -2,119 +2,6 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
-/* production-specific CSS */
-abbr[epub|type~="se:era"]{
-	font-variant: all-small-caps;
-}
-
-footer{
-	margin-top: 1em;
-	text-align: initial;
-}
-
-q{
-	font-style: italic;
-}
-
-section{
-	break-after: page;
-}
-
-table{
-	font-variant-numeric: tabular-nums;
-	margin: 1em auto;
-}
-
-/* year asides */
-span.timeline{
-	float: right;
-	font-size: .75em;
-	margin: .5em 0 .5em 1em;
-	text-align: right;
-	text-indent: 0;
-}
-
-/* non-English blockquotes and text in blockquotes */
-blockquote[xml|lang],
-blockquote > p[xml|lang]{
-	font-style: italic;
-}
-
-blockquote[xml|lang] em,
-blockquote[xml|lang] i,
-blockquote[xml|lang] strong{
-	font-style: normal;
-}
-
-[xml|lang] > em,
-[xml|lang] > strong{
-	font-style: normal;
-}
-/* end of non-English blockquotes */
-
-/* location-specific */
-#preface-1 hr + p{
-	margin-bottom: 1em;
-	text-align: center;
-}
-
-#preface-2 .authlocation{
-	margin-bottom: 1em;
-	margin-top: .5em;
-}
-
-#chapter-43 hr + p{
-	margin-bottom: 1em;
-}
-
-#chapter-61 > div > header{
-	font-style: italic;
-	margin-bottom: 1em;
-}
-
-section[epub|type~="endnotes"] > ol > li > ol{
-	margin-bottom: 0;
-	margin-top: 0;
-}
-
-#note-8692 table tr:nth-child(16) td:last-child{
-	border-bottom: 1px solid;
-}
-
-#note-8692 table tr:last-child td:first-child{
-	text-indent: 1em;
-}
-
-#note-6121 table td:first-child,
-#note-8692 table td:last-child{
-	text-align: right;
-}
-
-#note-1006 table th{
-	font-weight: normal;
-	padding-right: 1em;
-	text-align: center;
-}
-
-#note-1006 table > thead > tr:last-of-type{
-	font-size: .85em;
-}
-
-#note-6121 table td:nth-child(2){
-	text-align: center;
-}
-
-#note-7290 table{
-	border-collapse: collapse;
-}
-
-#note-7290 table,
-#note-7290 table th,
-#note-7290 table td{
-	border: 1px solid;
-}
-/* end of location-specific */
-
 /* SE standard CSS */
 /* bridgeheads */
 [epub|type~="bridgehead"]{
@@ -234,3 +121,117 @@ span.elision{
 	margin-left: 3em;
 }
 /* end of vertical elision in verse */
+/* end of SE standard CSS */
+
+/* production-specific CSS */
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: initial;
+}
+
+q{
+	font-style: italic;
+}
+
+section{
+	break-after: page;
+}
+
+table{
+	font-variant-numeric: tabular-nums;
+	margin: 1em auto;
+}
+
+/* year asides */
+span.timeline{
+	float: right;
+	font-size: .75em;
+	margin: .5em 0 .5em 1em;
+	text-align: right;
+	text-indent: 0;
+}
+
+/* non-English blockquotes and text in blockquotes */
+blockquote[xml|lang],
+blockquote > p[xml|lang]{
+	font-style: italic;
+}
+
+blockquote[xml|lang] em,
+blockquote[xml|lang] i,
+blockquote[xml|lang] strong{
+	font-style: normal;
+}
+
+[xml|lang] > em,
+[xml|lang] > strong{
+	font-style: normal;
+}
+/* end of non-English blockquotes */
+
+/* location-specific */
+#preface-1 hr + p{
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+#preface-2 .authlocation{
+	margin-bottom: 1em;
+	margin-top: .5em;
+}
+
+#chapter-43 hr + p{
+	margin-bottom: 1em;
+}
+
+#chapter-61 > div > header{
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+section[epub|type~="endnotes"] > ol > li > ol{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#note-8692 table tr:nth-child(16) td:last-child{
+	border-bottom: 1px solid;
+}
+
+#note-8692 table tr:last-child td:first-child{
+	text-indent: 1em;
+}
+
+#note-6121 table td:first-child,
+#note-8692 table td:last-child{
+	text-align: right;
+}
+
+#note-1006 table th{
+	font-weight: normal;
+	padding-right: 1em;
+	text-align: center;
+}
+
+#note-1006 table > thead > tr:last-of-type{
+	font-size: .85em;
+}
+
+#note-6121 table td:nth-child(2){
+	text-align: center;
+}
+
+#note-7290 table{
+	border-collapse: collapse;
+}
+
+#note-7290 table,
+#note-7290 table th,
+#note-7290 table td{
+	border: 1px solid;
+}
+/* end of location-specific */
