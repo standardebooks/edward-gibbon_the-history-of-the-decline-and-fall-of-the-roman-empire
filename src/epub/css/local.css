@@ -2,6 +2,7 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
+/* production-specific CSS */
 abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
@@ -19,17 +20,18 @@ section{
 	break-after: page;
 }
 
+table{
+	font-variant-numeric: tabular-nums;
+	margin: 1em auto;
+}
+
+/* year asides */
 span.timeline{
 	float: right;
 	font-size: .75em;
 	margin: .5em 0 .5em 1em;
 	text-align: right;
 	text-indent: 0;
-}
-
-table{
-	font-variant-numeric: tabular-nums;
-	margin: 1em auto;
 }
 
 /* non-English blockquotes and text in blockquotes */
@@ -75,35 +77,40 @@ section[epub|type~="endnotes"] > ol > li > ol{
 	margin-top: 0;
 }
 
-#note-2-62 table tr:nth-child(16) td:last-child{
+#note-8692 table tr:nth-child(16) td:last-child{
 	border-bottom: 1px solid;
 }
 
-#note-2-62 table tr:last-child td:first-child{
+#note-8692 table tr:last-child td:first-child{
 	text-indent: 1em;
 }
 
-#note-2-62 table td:last-child,
-#note-49-98-1 table td:first-child{
+#note-6121 table td:first-child,
+#note-8692 table td:last-child{
 	text-align: right;
 }
 
-#note-10-158-1 table th{
+#note-1006 table th{
 	font-weight: normal;
 	padding-right: 1em;
 	text-align: center;
 }
 
-#note-10-158-1 table > thead > tr:last-of-type{
+#note-1006 table > thead > tr:last-of-type{
 	font-size: .85em;
 }
 
-#note-49-98-1 table td:nth-child(2){
+#note-6121 table td:nth-child(2){
 	text-align: center;
 }
 
-#note-58-41 table{
+#note-7290 table{
 	border-collapse: collapse;
+}
+
+#note-7290 table,
+#note-7290 table th,
+#note-7290 table td{
 	border: 1px solid;
 }
 /* end of location-specific */
@@ -118,6 +125,52 @@ section[epub|type~="endnotes"] > ol > li > ol{
 	text-indent: 0;
 }
 /* end bridgeheads */
+
+/* images */
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figure + p{
+	text-indent: 0;
+}
+
+figcaption{
+	font-size: .75em;
+	font-style: italic;
+	margin: 1em;
+}
+
+/* full page */
+figure.full-page{
+	break-after: page;
+	break-before: page;
+	break-inside: avoid;
+	margin: 0;
+	max-height: 100%;
+	text-align: center;
+}
+
+@supports(display: flex) and (max-height: 100vh){
+	figure.full-page{
+		display: flex;
+		flex-direction: column;
+		max-height: 100vh;
+	}
+
+	figure.full-page img{
+		height: 100%;
+	}
+}
+
+/* aligned with text */
+figure{
+	margin: 1em auto;
+	text-align: center;
+}
+/* end of images
 
 /* verse/song/poetry */
 [epub|type~="z3998:hymn"] p,
