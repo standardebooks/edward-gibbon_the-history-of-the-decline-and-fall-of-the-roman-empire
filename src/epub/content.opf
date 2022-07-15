@@ -39,7 +39,7 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<dc:description id="description">A narrative history of the the Roman Empire from the time of Trajan to the fall of Constantinople.</dc:description>
+		<dc:description id="description">A narrative history of the Roman Empire from the time of Trajan to the fall of Constantinople.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The History of the Decline and Fall of the Roman Empire&lt;/i&gt; tells the story of the Roman Empire from the time of Trajan in the third century to the fall of Constantinople in the sixteenth. Along the way &lt;a href="https://standardebooks.org/ebooks/edward-gibbon"&gt;Gibbon&lt;/a&gt; describes not only the internal issues that arise within the empire, but also the various outside forces that contribute to its fall: the Goths, Huns, Persians, Muslims, and many others. He also has two highly controversial (at the time, and still today for some) chapters on his view of the role of Christianity in the empire’s unravelling, which caused a firestorm when the first volume of the history was published.&lt;/p&gt;
 			&lt;p&gt;As a history, it is perhaps without peer. Gibbon committed to studying, and quoting, first-hand sources whenever possible, and had an unerring eye for the difference between facts, opinions, and nonsense. He quoted from eighteen hundred and fifty unique sources written in eleven languages, and was scrupulous about referencing those sources: his text of over a million words contains almost eight thousand endnotes of another four hundred thousand words. Although history might be static, the study of it is not, resulting in his later nineteenth century editors adding another twenty percent to those notes with updates, corrections, and additional information that had come to light since the original publication.&lt;/p&gt;
@@ -156,6 +156,10 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-5">https://en.wikipedia.org/wiki/Friedrich_August_Wilhelm_Wenck</meta>
 		<meta property="se:url.authority.nacoaf" refines="#editor-5">http://id.loc.gov/authorities/names/nr2001014055</meta>
 		<meta property="role" refines="#editor-5" scheme="marc:relators">ann</meta>
+		<dc:contributor id="illustrator">G. B. King</dc:contributor>
+		<meta property="file-as" refines="#illustrator">King, G. B.</meta>
+		<meta property="display-seq" refines="#illustrator">0</meta>
+		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">Giovanni Battista Tiepolo</dc:contributor>
 		<meta property="file-as" refines="#artist">Tiepolo, Giovanni Battista</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Giovanni_Battista_Tiepolo</meta>
@@ -173,6 +177,7 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
@@ -351,8 +356,9 @@
 		<itemref idref="chapter-69.xhtml"/>
 		<itemref idref="chapter-70.xhtml"/>
 		<itemref idref="chapter-71.xhtml"/>
-		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="appendix.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
+		<itemref idref="loi.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
