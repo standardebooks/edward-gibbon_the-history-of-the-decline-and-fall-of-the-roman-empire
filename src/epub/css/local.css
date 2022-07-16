@@ -26,10 +26,6 @@ figcaption{
 	margin: 1em;
 }
 
-figcaption p + p{
-	text-indent: 0;
-}
-
 /* full page */
 figure.full-page{
 	break-after: page;
