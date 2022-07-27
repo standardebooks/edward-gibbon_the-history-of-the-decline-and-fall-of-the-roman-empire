@@ -188,19 +188,6 @@ section[epub|type~="endnotes"] > ol > li > ol{
 	margin-top: 0;
 }
 
-#note-8692 table tr:nth-child(16) td:last-child{
-	border-bottom: 1px solid;
-}
-
-#note-8692 table tr:last-child td:first-child{
-	text-indent: 1em;
-}
-
-#note-6121 table td:first-child,
-#note-8692 table td:last-child{
-	text-align: right;
-}
-
 #note-1006 table th{
 	font-weight: normal;
 	padding-right: 1em;
@@ -215,6 +202,11 @@ section[epub|type~="endnotes"] > ol > li > ol{
 	text-align: center;
 }
 
+#note-6121 table td:first-child,
+#note-8692 table td{
+	text-align: right;
+}
+
 #note-7290 table{
 	border-collapse: collapse;
 }
@@ -223,5 +215,13 @@ section[epub|type~="endnotes"] > ol > li > ol{
 #note-7290 table th,
 #note-7290 table td{
 	border: 1px solid;
+}
+
+#note-8692 tfoot td{
+	border-top: 1px solid;
+}
+
+#note-8692 tfoot th{
+	text-indent: 1em;
 }
 /* end of location-specific */
