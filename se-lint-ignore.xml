@@ -19,7 +19,7 @@
 		</ignore>
 		<ignore>
 			<code>s-045</code>
-			<reason>The abbreviations represent the actual printing on a medallion, and therefore need to stay as is.</reason>
+			<reason>In note-568 the abbreviations represent the actual printing on a medallion; in 4406/4881 they're foreign abbreviations that are not initialisms.</reason>
 		</ignore>
 		<ignore>
 			<code>s-064</code>
@@ -31,11 +31,11 @@
 		</ignore>
 		<ignore>
 			<code>t-024</code>
-			<reason>The sentence in quotes is just a portion of the entire quote, and so the tags are outside the quote marks.</reason>
+			<reason>In note-8501, the sentence in quotes is just a portion of the entire quote, and so the tags are outside the quote marks.</reason>
 		</ignore>
 		<ignore>
 			<code>t-066</code>
-			<reason>The Roman numeral isn’t a regnal.</reason>
+			<reason>In note-7769, the Roman numeral isn’t a regnal.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
