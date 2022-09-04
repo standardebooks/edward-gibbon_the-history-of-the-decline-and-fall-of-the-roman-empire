@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/edward-gibbon/the-history-of-the-decline-and-fall-of-the-roman-empire</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-09-04T19:36:48Z</dc:date>
+		<meta property="dcterms:modified">2022-09-04T19:36:48Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -42,8 +42,8 @@
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">A narrative history of the Roman Empire from the time of Trajan to the fall of Constantinople.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The History of the Decline and Fall of the Roman Empire&lt;/i&gt; tells the story of the Roman Empire from the time of Trajan in the third century to the fall of Constantinople in the sixteenth. Along the way &lt;a href="https://standardebooks.org/ebooks/edward-gibbon"&gt;Gibbon&lt;/a&gt; describes not only the internal issues that arise within the empire, but also the various outside forces that contribute to its fall: the Goths, Huns, Persians, Muslims, and many others. He also has two highly controversial (at the time, and still today for some) chapters on his view of the role of Christianity in the empire’s unravelling, which caused a firestorm when the first volume of the history was published.&lt;/p&gt;
-			&lt;p&gt;As a history, it is perhaps without peer. Gibbon committed to studying, and quoting, first-hand sources whenever possible, and had an unerring eye for the difference between facts, opinions, and nonsense. He quoted from eighteen hundred and fifty unique sources written in eleven languages, and was scrupulous about referencing those sources: his text of over a million words contains almost eight thousand endnotes of another four hundred thousand words. Although history might be static, the study of it is not, resulting in his later nineteenth century editors adding another twenty percent to those notes with updates, corrections, and additional information that had come to light since the original publication.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The History of the Decline and Fall of the Roman Empire&lt;/i&gt; tells the story of the Roman Empire from the time of Trajan in the third century to the fall of Constantinople in the sixteenth. Along the way &lt;a href="https://standardebooks.org/ebooks/edward-gibbon"&gt;Gibbon&lt;/a&gt; describes not only the internal issues that arise within the empire, but also the various outside forces that contribute to its fall: the Goths, Huns, Persians, Muslims, and many others. He also has two highly controversial (at the time, and still today for some) chapters on his view of the role of Christianity in the empire’s unraveling, which caused a firestorm when the first volume of the history was published.&lt;/p&gt;
+			&lt;p&gt;As a history, it is perhaps without peer. Gibbon committed to studying, and quoting, first-hand sources whenever possible, and had an unerring eye for the difference between facts, opinions, and nonsense. He quoted from 815 unique sources written in eleven languages, and was scrupulous about referencing those sources: his text of over a million words contains almost 8,000 endnotes of another 400,000 words. Although history might be static, the study of it is not, resulting in his later nineteenth century editors adding another twenty percent to those notes with updates, corrections, and additional information that had come to light since the original publication.&lt;/p&gt;
 			&lt;p&gt;But if &lt;i&gt;Decline and Fall&lt;/i&gt; excels at history, it is even better as literature, for Gibbon was not only an outstanding historian, he was also a remarkable writer. His narrative reads more like a novel than a dry history text, and his dry wit is apparent throughout, especially in his notes.&lt;/p&gt;
 			&lt;p&gt;In an effort to make it easier for the reader to refer to Gibbon’s sources if desired, this edition expands the often cryptic abbreviations used in the source references, both for the publication titles and the author’s names.&lt;/p&gt;
 		</meta>
@@ -111,8 +111,8 @@
 		When notes refer to page#’s in the above Milman scans used by PG (from his updated 1854 five-volume edition), the page numbers were not updated from his original 1838 twelve-volume edition, and thus are useless for reference. For notes that appear in the other above editions (Smith and/or Bury), those editions provide a means of identifying the correct page. However, there are notes that only exist in the Milman editions; for those, this Hathi scan of his original 1838 edition was used to determine the correct page being referred to.
 			https://catalog.hathitrust.org/Record/100726893
 		</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">1105984</meta>
+		<meta property="se:reading-ease.flesch">44.78</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_History_of_the_Decline_and_Fall_of_the_Roman_Empire</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-gibbon_the-history-of-the-decline-and-fall-of-the-roman-empire</meta>
 		<dc:creator id="author">Edward Gibbon</dc:creator>
@@ -179,6 +179,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
