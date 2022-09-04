@@ -118,9 +118,10 @@ abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
-footer{
+footer,
+#preface-2 [epub|type~="z3998:postscript"] p:last-child{
 	margin-top: 1em;
-	text-align: initial;
+	text-align: right;
 }
 
 q{
@@ -153,10 +154,7 @@ blockquote > p[xml|lang]{
 
 blockquote[xml|lang] em,
 blockquote[xml|lang] i,
-blockquote[xml|lang] strong{
-	font-style: normal;
-}
-
+blockquote[xml|lang] strong,
 [xml|lang] > em,
 [xml|lang] > strong{
 	font-style: normal;
@@ -169,16 +167,17 @@ blockquote[xml|lang] strong{
 	text-align: center;
 }
 
-#preface-2 .authlocation{
-	margin-bottom: 1em;
-	margin-top: .5em;
+#preface-2 [epub|type~="z3998:postscript"],
+#preface-4 [epub|type~="z3998:postscript"]{
+	margin: 2em 0;
+	text-align: initial;
 }
 
 #chapter-43 hr + p{
 	margin-bottom: 1em;
 }
 
-#chapter-61 > div > header{
+#chapter-61 > section[epub|type~="subchapter"] > header{
 	font-style: italic;
 	margin-bottom: 1em;
 }
