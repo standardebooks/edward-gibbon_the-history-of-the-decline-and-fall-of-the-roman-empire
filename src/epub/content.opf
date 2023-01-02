@@ -40,6 +40,8 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="se:subject">Nonfiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">A narrative history of the Roman Empire from the time of Trajan to the fall of Constantinople.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The History of the Decline and Fall of the Roman Empire&lt;/i&gt; tells the story of the Roman Empire from the time of Trajan in the third century to the fall of Constantinople in the sixteenth. Along the way &lt;a href="https://standardebooks.org/ebooks/edward-gibbon"&gt;Gibbon&lt;/a&gt; describes not only the internal issues that arise within the empire, but also the various outside forces that contribute to its fall: the Goths, Huns, Persians, Muslims, and many others. He also has two highly controversial (at the time, and still today for some) chapters on his view of the role of Christianity in the empire’s unraveling, which caused a firestorm when the first volume of the history was published.&lt;/p&gt;
