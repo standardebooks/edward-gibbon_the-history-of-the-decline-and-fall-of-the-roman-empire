@@ -148,7 +148,8 @@ span.timeline{
 
 /* non-English blockquotes and text in blockquotes */
 blockquote[xml|lang],
-blockquote > p[xml|lang]{
+blockquote > p[xml|lang],
+span[xml|lang]{
 	font-style: italic;
 }
 
@@ -169,7 +170,7 @@ blockquote[xml|lang] strong,
 
 #preface-2 [epub|type~="z3998:postscript"],
 #preface-4 [epub|type~="z3998:postscript"]{
-	margin: 2em 0;
+	margin: 1em 0;
 	text-align: initial;
 }
 
@@ -177,7 +178,7 @@ blockquote[xml|lang] strong,
 	margin-bottom: 1em;
 }
 
-#chapter-61 > section[epub|type~="subchapter"] > header{
+#chapter-61 > section[epub|type~="z3998:subchapter"] > header{
 	font-style: italic;
 	margin-bottom: 1em;
 }
