@@ -113,7 +113,7 @@
 		When notes refer to page#’s in the above Milman scans used by PG (from his updated 1854 five-volume edition), the page numbers were not updated from his original 1838 twelve-volume edition, and thus are useless for reference. For notes that appear in the other above editions (Smith and/or Bury), those editions provide a means of identifying the correct page. However, there are notes that only exist in the Milman editions; for those, this Hathi scan of his original 1838 edition was used to determine the correct page being referred to.
 			https://catalog.hathitrust.org/Record/100726893
 		</meta>
-		<meta property="se:word-count">1105984</meta>
+		<meta property="se:word-count">1105983</meta>
 		<meta property="se:reading-ease.flesch">44.78</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_History_of_the_Decline_and_Fall_of_the_Roman_Empire</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-gibbon_the-history-of-the-decline-and-fall-of-the-roman-empire</meta>
