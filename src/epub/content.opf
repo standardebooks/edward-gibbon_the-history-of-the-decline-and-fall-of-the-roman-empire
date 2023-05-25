@@ -8,9 +8,9 @@
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
-		<meta property="se:role" refines="#publisher" scheme="marc:relators">bkd</meta>
-		<meta property="se:role" refines="#publisher" scheme="marc:relators">mdc</meta>
-		<meta property="se:role" refines="#publisher" scheme="marc:relators">pbl</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
@@ -122,36 +122,36 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edward_Gibbon</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80005416</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
-		<meta property="se:role" refines="#author" scheme="marc:relators">wpr</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="editor-1">J. B. Bury</dc:contributor>
 		<meta property="file-as" refines="#editor-1">Bury, J. B.</meta>
 		<meta property="se:name.person.full-name" refines="#editor-1">John Bagnell Bury</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-1">https://en.wikipedia.org/wiki/J._B._Bury</meta>
 		<meta property="se:url.authority.nacoaf" refines="#editor-1">http://id.loc.gov/authorities/names/n50033779</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">ann</meta>
-		<meta property="se:role" refines="#editor-1" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#editor-1" scheme="marc:relators">aui</meta>
 		<dc:contributor id="editor-2">François Guizot</dc:contributor>
 		<meta property="file-as" refines="#editor-2">Guizot, François</meta>
 		<meta property="se:name.person.full-name" refines="#editor-2">François Pierre Guillaume Guizot</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-2">https://en.wikipedia.org/wiki/François_Guizot</meta>
 		<meta property="se:url.authority.nacoaf" refines="#editor-2">http://id.loc.gov/authorities/names/n50057779</meta>
 		<meta property="role" refines="#editor-2" scheme="marc:relators">ann</meta>
-		<meta property="se:role" refines="#editor-2" scheme="marc:relators">edt</meta>
+		<meta property="role" refines="#editor-2" scheme="marc:relators">edt</meta>
 		<dc:contributor id="editor-3">H. H. Milman</dc:contributor>
 		<meta property="file-as" refines="#editor-3">Milman, H. H.</meta>
 		<meta property="se:name.person.full-name" refines="#editor-3">Henry Hart Milman</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-3">https://en.wikipedia.org/wiki/Henry_Hart_Milman</meta>
 		<meta property="se:url.authority.nacoaf" refines="#editor-3">http://id.loc.gov/authorities/names/n50033260</meta>
 		<meta property="role" refines="#editor-3" scheme="marc:relators">ann</meta>
-		<meta property="se:role" refines="#editor-3" scheme="marc:relators">edt</meta>
-		<meta property="se:role" refines="#editor-3" scheme="marc:relators">wpr</meta>
+		<meta property="role" refines="#editor-3" scheme="marc:relators">edt</meta>
+		<meta property="role" refines="#editor-3" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="editor-4">William Smith</dc:contributor>
 		<meta property="file-as" refines="#editor-4">Smith, William</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-4">https://en.wikipedia.org/wiki/William_Smith_(lexicographer)</meta>
 		<meta property="se:url.authority.nacoaf" refines="#editor-4">http://id.loc.gov/authorities/names/n00036173</meta>
 		<meta property="role" refines="#editor-4" scheme="marc:relators">ann</meta>
-		<meta property="se:role" refines="#editor-4" scheme="marc:relators">edt</meta>
+		<meta property="role" refines="#editor-4" scheme="marc:relators">edt</meta>
 		<dc:contributor id="editor-5">Friedrich Wenck</dc:contributor>
 		<meta property="file-as" refines="#editor-5">Wenck, Friedrich</meta>
 		<meta property="se:name.person.full-name" refines="#editor-5">Friedrich August Wilhelm Wenck</meta>
@@ -175,12 +175,12 @@
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
-		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
-		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
-		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
-		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
-		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
-		<meta property="se:role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
 		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com</meta>
