@@ -130,7 +130,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-1">https://en.wikipedia.org/wiki/J._B._Bury</meta>
 		<meta property="se:url.authority.nacoaf" refines="#editor-1">http://id.loc.gov/authorities/names/n50033779</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">ann</meta>
-		<meta property="role" refines="#editor-1" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#editor-1" scheme="marc:relators">win</meta>
 		<dc:contributor id="editor-2">François Guizot</dc:contributor>
 		<meta property="file-as" refines="#editor-2">Guizot, François</meta>
 		<meta property="se:name.person.full-name" refines="#editor-2">François Pierre Guillaume Guizot</meta>
