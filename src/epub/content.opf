@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/edward-gibbon/the-history-of-the-decline-and-fall-of-the-roman-empire</dc:identifier>
 		<dc:date>2022-09-04T19:36:48Z</dc:date>
 		<meta property="dcterms:modified">2022-09-04T19:36:48Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -39,7 +40,7 @@
 		<meta property="term" refines="#subject-2">sh85018484</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85064865</meta>
-		<meta property="se:subject">Nonfiction</meta>
+		<meta property="schema:genre">Nonfiction</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">A narrative history of the Roman Empire from the time of Trajan to the fall of Constantinople.</dc:description>
@@ -62,117 +63,68 @@
 		<dc:source>https://archive.org/details/historyofdecline52gibb</dc:source>
 		<!-- Vol 5, chapters 58 thru 71 -->
 		<dc:source>https://archive.org/details/historyofdecline51gibb</dc:source>
-		<meta property="se:production-notes">Endnote references were expanded to include full author names in their first occurrence, full publication names (if able to be determined) in their first occurrence, and elimination of abbreviations in all remaining author and publication names where possible. A few author names were corrected to their modern spelling (e.g. Leclerc, Jerome), and a few Chinese names were converted to Wade-Giles spelling.
-		The transcription was missing all italics, diacritics, and Greek quotations; these have all been restored. None of the non-English quotations (Latin, French, German, etc.) were identified or marked, these have all been tagged and italicized. Thousands of transcription typos both in the text and primarily the endnotes were corrected via a side-by-side review of the scans/text, and a second proofreading pass after the corrections.
-		Latin words/abbreviations beginning with ad (e.g. ad loc.) and in (e.g. in loc.) have been tagged and italicized, in keeping with SE's policy of tagging Latin abbreviations that begin with English words, e.g. ad hominem, in extremis, etc., to prevent confusion.
-		Gibbon often introduces subjects (usually people groups) using italics. Per a discussion with the Editor-in-Chief on the list, this italicization (as emphasis) has been kept. Since Gibbon typically only italicizes the first occurrence, this seemed the best course to take.
-		At attempt was made to standardize punctuation on references. Those of type “Author/Work X 1” or “Author, Work X 1” have only a comma between Author and Work in the latter case. Those of “Author/Work, l./tom./etc. X [c. Y][, p. Z]”, “Author, Work, l./tom./etc. X [c. Y][, p. Z]” have comma between author and work, between author/work and volume, and before page number(s).
-		Because Gibbon jumps around in the chronology of the history, shoulder notes from the Smith edition below were added to the text, containing the date(s) the events under discussion take place. The notes contain only the date(s), and usually only when the year changes.
-		The PG transcription included chapter titles. These do not exist in any of the scans/printed editions, so were removed.
-		First edition chapter breakdown:
-			Vol 1, chapters  1-16
-			Vol 2, chapters 17-26
-			Vol 3, chapters 27-38
-			Vol 4, chapters 39-47
-			Vol 5, chapters 48-57
-			Vol 6, chapters 58-71
-		In addition to the source scans listed above, the following scans were used for correcting typos, punctuation, for clarity (especially of Greek endnotes), for a few additional notes, and where the Milman source scans were visually distorted.
-		Smith 8-volume, John Murray (London), 1862
-			Vol 1, chapters  1–10, https://archive.org/details/historydeclinea00smitgoog
-			Vol 2, chapters 11–19, https://archive.org/details/historydeclinea23gibbgoog
-			Vol 3, chapters 20–28, https://archive.org/details/bub_gb_LeksAAAAYAAJ
-			Vol 4, chapters 29–38, https://archive.org/details/historydeclinea07smitgoog
-			Vol 5, chapters 39–46, https://archive.org/details/dli.granth.77251
-			Vol 6, chapters 47–52, https://archive.org/details/historydeclinea19gibbgoog
-			Vol 7, chapters 53–63, https://books.google.com/books?id=DqBBAQAAMAAJ
-			Vol 8, chapters 64–71, https://books.google.com/books?id=SaBBAQAAMAAJ
-		Bury 12-volume, Thomas Y. Crowell &amp; Co. (New York)
-			Vol  1, chapters  1– 9, https://archive.org/details/declinefallofrom04gibb
-			Vol  2, chapters 10–15, https://catalog.hathitrust.org/Record/012155499
-			Vol  3, chapters 16–21, https://archive.org/details/declinefallofrom03gibb
-			Vol  4, chapters 22–26, https://catalog.hathitrust.org/Record/007112165
-			Vol  5, chapters 27–33, https://archive.org/details/declineandfallof05gibb
-			Vol  6, chapters 34–39, https://archive.org/details/declinefallofrom06gibb
-			Vol  7, chapters 40–44, https://archive.org/details/declinefallofrom07gibb
-			Vol  8, chapters 45–49, https://archive.org/details/declinefallofrom08gibb
-			Vol  9, chapters 50–53, https://archive.org/details/declinefallofrom09gibb
-			Vol 10, chapters 54–60, https://archive.org/details/declinefallofrom10gibb
-			Vol 11, chapters 61–67, https://archive.org/details/declinefallofrom11gibb
-			Vol 12, chapters 68–71, https://archive.org/details/declinefallofrom12gibb
-		Bury 7-volume, Methuen &amp; Co. (London), 1897
-			Vol 1, chapters  1–14, https://archive.org/details/historyofdecl01gibb
-			Vol 2, chapters 15–24, https://archive.org/details/historydeclinea00burygoog
-			Vol 3, chapters 25–35, https://archive.org/details/historyofdecl03gibb
-			Vol 4, chapters 36–44, https://archive.org/details/historyofdecline04gibbuoft
-			Vol 5, chapters 45–51, https://archive.org/details/historyofdecl05gibb
-			Vol 6, chapters 52–63, https://archive.org/details/historyofdecl06gibb
-			Vol 7, chapters 64–71, https://archive.org/details/historyofdecl07gibb
-		Bury 12-volume, Fred de Fau and Co. (New York), 1906
-			https://oll.libertyfund.org/title/lecky-the-history-of-the-decline-and-fall-of-the-roman-empire-12-vols
-
-		When notes refer to page#’s in the above Milman scans used by PG (from his updated 1854 five-volume edition), the page numbers were not updated from his original 1838 twelve-volume edition, and thus are useless for reference. For notes that appear in the other above editions (Smith and/or Bury), those editions provide a means of identifying the correct page. However, there are notes that only exist in the Milman editions; for those, this Hathi scan of his original 1838 edition was used to determine the correct page being referred to.
-			https://catalog.hathitrust.org/Record/100726893
-		</meta>
-		<meta property="se:word-count">1105395</meta>
-		<meta property="se:reading-ease.flesch">44.78</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_History_of_the_Decline_and_Fall_of_the_Roman_Empire</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-gibbon_the-history-of-the-decline-and-fall-of-the-roman-empire</meta>
+		<meta property="schema:wordCount">1105395</meta>
+		<meta property="schema:educationalLevel">44.78</meta>
+		<link href="https://en.wikipedia.org/wiki/The_History_of_the_Decline_and_Fall_of_the_Roman_Empire" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/edward-gibbon_the-history-of-the-decline-and-fall-of-the-roman-empire" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Edward Gibbon</dc:creator>
 		<meta property="file-as" refines="#author">Gibbon, Edward</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edward_Gibbon</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80005416</meta>
+		<link href="https://en.wikipedia.org/wiki/Edward_Gibbon" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80005416.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="editor-1">J. B. Bury</dc:contributor>
 		<meta property="file-as" refines="#editor-1">Bury, J. B.</meta>
-		<meta property="se:name.person.full-name" refines="#editor-1">John Bagnell Bury</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-1">https://en.wikipedia.org/wiki/J._B._Bury</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor-1">http://id.loc.gov/authorities/names/n50033779</meta>
+		<meta property="schema:alternateName" refines="#editor-1">John Bagnell Bury</meta>
+		<link href="https://en.wikipedia.org/wiki/J._B._Bury" refines="#editor-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50033779.html" refines="#editor-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">win</meta>
 		<dc:contributor id="editor-2">François Guizot</dc:contributor>
 		<meta property="file-as" refines="#editor-2">Guizot, François</meta>
-		<meta property="se:name.person.full-name" refines="#editor-2">François Pierre Guillaume Guizot</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-2">https://en.wikipedia.org/wiki/François_Guizot</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor-2">http://id.loc.gov/authorities/names/n50057779</meta>
+		<meta property="schema:alternateName" refines="#editor-2">François Pierre Guillaume Guizot</meta>
+		<link href="https://en.wikipedia.org/wiki/François_Guizot" refines="#editor-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50057779.html" refines="#editor-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor-2" scheme="marc:relators">edt</meta>
 		<dc:contributor id="editor-3">H. H. Milman</dc:contributor>
 		<meta property="file-as" refines="#editor-3">Milman, H. H.</meta>
-		<meta property="se:name.person.full-name" refines="#editor-3">Henry Hart Milman</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-3">https://en.wikipedia.org/wiki/Henry_Hart_Milman</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor-3">http://id.loc.gov/authorities/names/n50033260</meta>
+		<meta property="schema:alternateName" refines="#editor-3">Henry Hart Milman</meta>
+		<link href="https://en.wikipedia.org/wiki/Henry_Hart_Milman" refines="#editor-3" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50033260.html" refines="#editor-3" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor-3" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor-3" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor-3" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="editor-4">William Smith</dc:contributor>
 		<meta property="file-as" refines="#editor-4">Smith, William</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-4">https://en.wikipedia.org/wiki/William_Smith_(lexicographer)</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor-4">http://id.loc.gov/authorities/names/n00036173</meta>
+		<link href="https://en.wikipedia.org/wiki/William_Smith_(lexicographer)" refines="#editor-4" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n00036173.html" refines="#editor-4" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor-4" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor-4" scheme="marc:relators">edt</meta>
 		<dc:contributor id="editor-5">Friedrich Wenck</dc:contributor>
 		<meta property="file-as" refines="#editor-5">Wenck, Friedrich</meta>
-		<meta property="se:name.person.full-name" refines="#editor-5">Friedrich August Wilhelm Wenck</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-5">https://en.wikipedia.org/wiki/Friedrich_August_Wilhelm_Wenck</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor-5">http://id.loc.gov/authorities/names/nr2001014055</meta>
+		<meta property="schema:alternateName" refines="#editor-5">Friedrich August Wilhelm Wenck</meta>
+		<link href="https://en.wikipedia.org/wiki/Friedrich_August_Wilhelm_Wenck" refines="#editor-5" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr2001014055.html" refines="#editor-5" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor-5" scheme="marc:relators">ann</meta>
 		<dc:contributor id="illustrator">G. B. King</dc:contributor>
 		<meta property="file-as" refines="#illustrator">King, G. B.</meta>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">Giovanni Battista Tiepolo</dc:contributor>
 		<meta property="file-as" refines="#artist">Tiepolo, Giovanni Battista</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Giovanni_Battista_Tiepolo</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80045041</meta>
+		<link href="https://en.wikipedia.org/wiki/Giovanni_Battista_Tiepolo" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80045041.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-1">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com/</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -182,7 +134,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com/</meta>
+		<link href="http://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
