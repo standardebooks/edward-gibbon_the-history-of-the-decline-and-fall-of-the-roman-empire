@@ -66,7 +66,7 @@
 		<meta property="schema:wordCount">1105395</meta>
 		<meta property="schema:educationalLevel">44.78</meta>
 		<link href="https://en.wikipedia.org/wiki/The_History_of_the_Decline_and_Fall_of_the_Roman_Empire" rel="schema:sameAs"/>
-		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/edward-gibbon_the-history-of-the-decline-and-fall-of-the-roman-empire" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Edward Gibbon</dc:creator>
