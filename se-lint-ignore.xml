@@ -5,12 +5,6 @@
 			<reason>There are many instances of two adjacent footnotes from different sources, e.g. author and editor; these need to be separated by a space for readability.</reason>
 		</ignore>
 	</file>
-	<file path="content.opf">
-		<ignore code="t-001">
-			<line>65</line>
-			<reason>There are valid double-spaces in the formatted portion of the production notes.</reason>
-		</ignore>
-	</file>
 	<file path="endnotes.xhtml">
 		<ignore code="s-039">
 			<line>22494</line>
