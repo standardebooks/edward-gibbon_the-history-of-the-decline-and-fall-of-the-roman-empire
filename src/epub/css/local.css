@@ -215,3 +215,81 @@ section[epub|type~="endnotes"] > ol > li > ol{
 	text-indent: 1em;
 }
 /* end of location-specific */
+
+ol.inline{
+	list-style-position: inside;
+	margin: 0;
+	padding-left: 0;
+}
+
+ol.inline > li{
+	text-indent: 1em;
+}
+
+ol.inline > li > p:first-child{
+	display: inline;
+}
+
+@supports selector(::marker){
+	ol.inline > li::marker{
+		font-variant-numeric: inherit;
+		white-space: normal;
+	}
+}
+
+#chapter-10 ol.inline,
+#chapter-11 ol.inline,
+#chapter-13 ol.inline,
+#chapter-14 ol.inline,
+#chapter-15 ol.inline,
+#chapter-16 ol.inline,
+#chapter-17 > ol.inline,
+#chapter-2 ol.inline,
+#chapter-20 ol.inline,
+#chapter-21 > ol.inline:nth-of-type(-n + 3),
+#chapter-21 > ol.inline:nth-of-type(5),
+#chapter-25 ol.inline,
+#chapter-26 ol.inline,
+#chapter-28 ol.inline,
+#chapter-3 ol.inline,
+#chapter-31 ol.inline,
+#chapter-32 ol.inline,
+#chapter-34 ol.inline,
+#chapter-36 ol.inline,
+#chapter-37 ol.inline,
+#general-observations ol.inline,
+#chapter-40 ol.inline,
+#chapter-43 ol.inline,
+#chapter-44 > ol.inline:first-of-type,
+#chapter-45 ol.inline,
+#chapter-47 ol.inline,
+#chapter-48 ol.inline,
+#chapter-49 ol.inline,
+#chapter-50 ol.inline,
+#chapter-51 ol.inline,
+#chapter-53 ol.inline,
+#chapter-54 ol.inline,
+#chapter-55 ol.inline,
+#chapter-56 > ol.inline:nth-of-type(2),
+#chapter-57 ol.inline,
+#chapter-58 ol.inline,
+#chapter-59 ol.inline,
+#chapter-6 ol.inline,
+#digression-on-the-family-courtenay ol.inline,
+#chapter-62 ol.inline,
+#chapter-64 ol.inline,
+#chapter-65 ol.inline,
+#chapter-66 ol.inline,
+#chapter-69 ol.inline,
+#chapter-70 ol.inline,
+#chapter-71 ol.inline,
+#chapter-8 ol.inline,
+#chapter-9 ol.inline,
+#note-745 ol.inline,
+#note-3231 ol.inline,
+#note-5393 ol.inline,
+#note-7263 ol.inline,
+#note-9219 ol.inline,
+#preface-1 ol.inline{
+	list-style-type: upper-roman;
+}
